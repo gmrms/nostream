@@ -79,4 +79,6 @@ USER 1000:1000
 
 RUN mkdir -p $NOSTR_CONFIG_DIR
 
+COPY /resources .
+
 CMD ["node", "src/index.js"]
