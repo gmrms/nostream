@@ -35,4 +35,4 @@ dist
 *.env
 
 # Nostr data folder
-.nostr
+# .nostr
